@@ -41,7 +41,9 @@ Example: Temporary file
 
 Here we use the `tempfile.TemporaryFile` context-manager in `withFixture()`::
 
-  class TestBindingToMembers(TestCase):
+  import with_fixture
+
+  class TestBindingToMembers(with_fixture.TestCase):
       TEST_DATA = b'1234567890'
 
       def withFixture(self):
