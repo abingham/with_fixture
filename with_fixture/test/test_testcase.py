@@ -1,3 +1,5 @@
+import tempfile
+
 from with_fixture.testcase import TestCase
 
 
@@ -62,3 +64,16 @@ class TestContextManagerBehavior(TestCase):
 
     def test_nothing(self):
         pass
+
+
+class TestBindingToMembers(TestCase):
+    TEST_DATA = b'1234567890'
+
+    def withFixture(self):
+        with tempfile.TemporaryFile() as self.f:
+            yield
+            self.f.seek(0)
+            assert(self.f.read() == self.TEST_DATA)
+
+    def test_nothing(self):
+        self.f.write(self.TEST_DATA)
