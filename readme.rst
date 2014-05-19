@@ -1,3 +1,5 @@
+`Travis CI <https://travis-ci.org/abingham/with_fixture>`_ |build-status|
+
 ================
  with_fixture
 ================
