@@ -92,3 +92,10 @@ room for further experimentation. Areas to investigate include:
 
  - Completely different designs. I can imagine completely different
    ways to approach this, and I'm sure others can too.
+
+.. Build status badge
+.. |build-status|
+   image:: https://secure.travis-ci.org/abingham/with_fixture.png
+           ?branch=master
+   :target: http://travis-ci.org/abingham/with_fixture
+   :alt: Build Status
