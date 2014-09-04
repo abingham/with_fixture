@@ -29,7 +29,6 @@ class TestPreYieldIsExecuted(TestCase):
         yield
 
     def test_nothing(self):
-        self.assertEqual(1, 2)
         pass
 
 
