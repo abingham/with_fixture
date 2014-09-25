@@ -1,4 +1,5 @@
 `Travis CI <https://travis-ci.org/abingham/with_fixture>`_ |build-status|
+`Landscape.io <https://landscape.io/github/abingham/with_fixture>`_ |code-health|
 
 ================
  with_fixture
@@ -98,4 +99,10 @@ room for further experimentation. Areas to investigate include:
    image:: https://secure.travis-ci.org/abingham/with_fixture.png
            ?branch=master
    :target: http://travis-ci.org/abingham/with_fixture
-   :alt: Build Status
+   :alt: Build status
+
+.. Landscape health badge
+.. |code-health|
+   image:: https://landscape.io/github/abingham/with_fixture/master/badges
+   :target: https://landscape.io/github/abingham/with_fixture
+   :alt: Code health
