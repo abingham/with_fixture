@@ -104,6 +104,6 @@ room for further experimentation. Areas to investigate include:
 
 .. Landscape health badge
 .. |code-health|
-   image:: https://landscape.io/github/abingham/with_fixture/master/badges
+   image:: https://landscape.io/github/abingham/with_fixture/master/landscape.png
    :target: https://landscape.io/github/abingham/with_fixture
    :alt: Code health
