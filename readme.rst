@@ -1,4 +1,5 @@
 `Travis CI <https://travis-ci.org/abingham/with_fixture>`_ |build-status|
+
 `Landscape.io <https://landscape.io/github/abingham/with_fixture>`_ |code-health|
 
 ================
